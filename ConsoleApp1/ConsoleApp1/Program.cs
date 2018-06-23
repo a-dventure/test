@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Model;
+using System;
 
 namespace ConsoleApp1
 {
@@ -6,6 +7,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            var worldcup = new WorldCup() { HostCountry = "Russia",ChanpionCountry = "Burunland", EventYear = 2018 };
+
             Console.WriteLine("Hello World!");
         }
     }
